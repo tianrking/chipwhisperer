@@ -1,9 +1,7 @@
 name: Periodic Full Test
 
 on: 
-  schedule:
-    - cron: '0 0 1,15 * *'
-
+  workflow_dispatch:
 jobs:
   trigger_action:
     name: Push dispatch
